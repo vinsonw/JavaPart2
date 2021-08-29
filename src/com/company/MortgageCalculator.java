@@ -84,7 +84,7 @@ public class MortgageCalculator {
     }
 
 
-   private void setYears() {
+    private void setYears() {
         this.years = (byte) readNumber("Period (Years): ", 1, 30);
     }
 
