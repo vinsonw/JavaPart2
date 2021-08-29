@@ -21,13 +21,16 @@ public class Main {
 //
 //        int ttlSalary = calculateWage(baseSalary, extraHours, hourlyRate);
 //        System.out.println(ttlSalary);
-        var employee = new Employee(50_000, 20);
+//        var employee = new Employee(50_000, 20);
 //        employee.baseSalary = 50_000;
 //        employee.setBaseSalary(50_000);
 //        employee.setHourlyRate(20);
-        int wage = employee.calculateWage();
-        System.out.println(wage);
-        System.out.println(Employee.numberOfEmployees);
-        Employee.printNumberOfEmployees();
+//        int wage = employee.calculateWage();
+//        System.out.println(wage);
+//        System.out.println(Employee.numberOfEmployees);
+//        Employee.printNumberOfEmployees();
+        var mortgageCalculator = new MortgageCalculator();
+        mortgageCalculator.printMortgage();
+        mortgageCalculator.printPaymentSchedule();
     }
 }
